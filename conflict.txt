@@ -1,1 +1,3 @@
 Xin chao, toi la Ton Ngo Khong.
+
+Toi den day la de tao CONFLICT.
