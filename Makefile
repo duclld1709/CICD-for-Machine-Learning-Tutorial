@@ -10,9 +10,9 @@ train:
 
 eval:
 	echo "## Model Metrics" > report.Model
-	cat ./Result/metrics.txt >> report.Model
+	cat ./Results/metric.txt >> report.Model
 
 	echo '\n## Cofusion Matrix Plot' >> report.Model
-	echo '![Confusion Matrix](./Result/model_result.png)' >> report.model_result
+	echo '![Confusion Matrix](./Results/model_results.png)' >> report.model_result
 
 	cml comment create report.md
